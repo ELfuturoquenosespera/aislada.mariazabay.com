@@ -1,0 +1,100 @@
+.distance-art{display:flex;align-items:center;justify-content:space-between;gap:40px;min-height:330px;border-block:1px solid #111;margin:70px 0 90px}.distance-art>span{font-size:clamp(35px,6.5vw,100px);font-weight:650;letter-spacing:-.07em}.distance-art small{display:block;font:16px/2 Helvetica,Arial,sans-serif;letter-spacing:0}.closed-line{flex:1;border-block:1px solid #111;text-align:center;padding:18px 8px;font:11px/1.5 monospace;letter-spacing:.12em}.btn.arrow:after{content:none}@media(max-width:650px){.distance-art{flex-direction:column;gap:20px;padding:35px 0;min-height:0}.closed-line{width:100%}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}.manifesto-video{position:relative;aspect-ratio:16/9;background:#090909;border:1px solid #111}.manifesto-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.hero-portrait{width:68%;-webkit-mask-image:none;mask-image:none}.hero-portrait img{object-fit:contain;object-position:right bottom}@media(max-width:700px){.hero-portrait{width:100%;opacity:.42}.hero-portrait img{object-position:70% bottom}}/* Composición de cabecera: título sobre el libro y retrato en color. */
+.hero-portrait img{filter:none}.hero-copy{justify-content:flex-start;gap:20px;padding-top:36px;padding-bottom:36px}.hero .hero-headline{margin:12px 0 0;max-width:490px}.hero .hero-book-interactive{width:clamp(270px,30vw,425px);max-width:425px;margin:10px 0 14px 32px}.hero .hero-bottom{max-width:440px}.hero-portrait{width:72%;opacity:1}@media(max-width:640px){.hero .hero-copy{padding-top:340px;min-height:1040px;gap:16px}.hero .hero-headline{font-size:30px;max-width:320px;margin:0}.hero .hero-book-interactive:not(.final-book-interactive){width:min(59vw,230px);max-width:230px;margin:8px 0 12px 10px}.hero .hero-portrait{width:100%;left:0;right:0;top:0;height:640px;opacity:1;mask-image:none;-webkit-mask-image:none}.hero .hero-portrait img{object-position:right top}.hero .hero-bottom{background:#fff;padding-top:8px}}.final-cta .btn{background:#090909;color:#fff;border-color:#090909}.final-cta .btn:hover{background:#292929;color:#fff}.final-cta .btn:focus-visible{outline:3px solid #090909;outline-offset:5px}
+.hero-portrait img{height:100%}.shelf-book img{width:auto}.author-image{height:auto}
+/* Prensa: tarjetas con aire y tipografía legible. */
+#prensa .section-title{font-size:clamp(42px,5vw,76px);margin-bottom:48px}
+#prensa .critics-grid{gap:32px;align-items:stretch}
+#prensa .critic{padding:36px;display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+#prensa .critic .eyebrow{font-size:12px;line-height:1.6;letter-spacing:.1em;margin-bottom:20px}
+#prensa .critic h3.deck{font-size:clamp(21px,1.8vw,27px);line-height:1.35;letter-spacing:-.025em;margin-bottom:24px;font-weight:500}
+#prensa .critic>p{font-family:inherit;font-size:17px;line-height:1.7;letter-spacing:0;margin-bottom:28px}
+#prensa .critic .text-link{display:inline-block;font-size:12px;line-height:1.5;margin-top:auto;padding-top:8px;padding-bottom:6px}
+@media(max-width:760px){#prensa .critics-grid{grid-template-columns:1fr;gap:24px}#prensa .critic{padding:28px}#prensa .critic h3.deck{font-size:23px}#prensa .section-title{margin-bottom:36px}}
+
+#prensa .press-image-card{min-width:0}#prensa .press-image-card>a{display:block}#prensa .press-image-frame{aspect-ratio:16/10;overflow:hidden;background:#f3f3f3;border:1px solid #ddd}#prensa .press-image-frame img{display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1);transition:transform .25s ease}#prensa .cover-preview img{object-fit:contain;padding:20px}#prensa .press-image-caption{display:block;margin:16px 0 8px;line-height:1.6;font-size:12px}#prensa a:hover .press-image-frame img{transform:scale(1.025)}#prensa .press-image-card a:focus-visible{outline:3px solid #111;outline-offset:6px}@media(prefers-reduced-motion:reduce){#prensa .press-image-frame img{transition:none}}
+/* Prensa: fotografía más compacta, medio y titular enlazados juntos. */
+#prensa .press-image-frame{aspect-ratio:16/8;max-height:260px}
+#prensa .press-news-title{font-size:clamp(20px,1.65vw,25px);font-weight:500;line-height:1.4;letter-spacing:-.025em;margin:12px 0 0;max-width:38ch}
+#prensa .press-image-caption{margin:20px 0 0}
+#prensa .critics-grid{column-gap:36px;row-gap:48px}
+#prensa .press-image-card a:hover .press-news-title{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:760px){#prensa .press-image-frame{max-height:220px}#prensa .press-news-title{font-size:21px}#prensa .critics-grid{row-gap:36px}}
+.venice-character-image{display:block;width:100%;max-width:260px;height:auto;margin-top:28px;border:1px solid #ddd}.character-place{min-width:0}@media(max-width:900px){.venice-character-image{max-width:220px;margin-bottom:20px}}/* Cabecera ajustada al viewport, incluido el espacio del menú. */
+.hero{height:calc(100svh - 80px);min-height:0;max-height:none;overflow:hidden}
+.hero .hero-copy{height:100%;min-height:0;gap:12px;padding-top:20px;padding-bottom:20px;justify-content:flex-start}
+.hero .hero-intro{position:static;font-size:10px;line-height:1.4;padding:0;border:0}
+.hero .hero-headline{font-size:clamp(22px,3.8svh,35px);line-height:1.12;margin:0;max-width:48%}
+.hero .hero-book-interactive:not(.final-book-interactive){width:min(29vw,calc((100svh - 335px)*.65));max-width:425px;min-width:0;margin:3px 0 5px clamp(24px,8vw,120px);flex-shrink:0}
+.hero .hero-bottom{max-width:43%;margin-top:auto;background:#fff}
+.hero .hero-subhead{font-size:13px;line-height:1.45;margin:0}
+.hero .hero-portrait{top:12px;bottom:0;left:auto;right:0;width:72%;height:calc(100% - 12px);opacity:1;mask-image:none;-webkit-mask-image:none}
+.hero .hero-portrait img{width:100%;height:100%;object-fit:contain;object-position:right bottom;filter:none}
+@media(max-width:640px){.hero{height:calc(100svh - 69px);min-height:0}.hero .hero-copy{min-height:0;padding:18px var(--edge);gap:12px}.hero .hero-headline{font-size:clamp(20px,3.5svh,29px);max-width:80%}.hero .hero-portrait{width:83%;height:75%;top:auto;bottom:70px;right:-3%;left:auto}.hero .hero-book-interactive:not(.final-book-interactive){width:min(47vw,calc((100svh - 340px)*.65));max-width:230px;margin:12px 0 0 0}.hero .hero-bottom{max-width:100%;padding-top:8px}.hero .hero-subhead{font-size:12px}}
+@media(max-height:570px) and (min-width:641px){.hero .hero-copy{gap:8px;padding-block:12px}.hero .hero-headline{font-size:20px}.hero .hero-book-interactive:not(.final-book-interactive){width:calc((100svh - 265px)*.65)}.hero .hero-subhead{font-size:12px}}
+.character-figure{margin:26px 0 0;max-width:260px}.character-photo{display:block;width:100%;height:auto;border:1px solid #ddd}.character-figure figcaption{font-size:12px;line-height:1.5;color:#555;margin-top:10px}#personajes .tab-list{flex-wrap:wrap;gap:12px}#personajes .character-panel{align-items:center}@media(max-width:900px){.character-figure{max-width:220px;margin-bottom:20px}}.hero-book-interactive .book-leaf{padding:0;display:block}.hero-book-interactive .book-leaf .book-first-page{display:block;width:100%;height:100%;object-fit:contain;background:#fff}
+/* Interior visible incluso durante la transformación 3D de la cubierta. */
+.hero-book-interactive .book-leaf{position:absolute;inset:0;z-index:1;display:block;padding:0;overflow:hidden;transform:translateZ(1px);backface-visibility:visible;background:#fff url('aislada-primera-pagina.png') center/contain no-repeat}
+.hero-book-interactive .book-leaf .book-first-page{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:contain;visibility:visible;opacity:1;display:block}
+.hero-book-interactive .book-front{z-index:3}
+
+/* Portada visible en reposo; apertura al pasar el ratón. */
+.hero-book-interactive .book-object{isolation:isolate;transform-style:flat}
+.hero-book-interactive .book-leaf{z-index:0;transform:none;backface-visibility:visible;pointer-events:none}
+.hero-book-interactive .book-front{z-index:2;transform:rotateY(0deg);transform-origin:left center;backface-visibility:hidden;transition:transform .6s ease;will-change:transform}
+.hero-book-interactive[aria-expanded="true"] .book-front{transform:perspective(950px) rotateY(-112deg)}
+@media(hover:hover){.hero-book-interactive:hover .book-front{transform:perspective(950px) rotateY(-112deg)}}
+@media(prefers-reduced-motion:reduce){.hero-book-interactive .book-front{transition:none}}
+/* Volumen de novela: canto de páginas y tapas, también en reposo. */
+.hero-book-interactive{--depth:clamp(22px,2.7vw,36px);perspective:1400px}
+.hero-book-interactive .book-object{transform:rotateZ(-3deg) rotateY(-18deg);transform-style:flat;overflow:visible;border-left:5px solid #292821;box-shadow:16px 23px 28px #0004,3px 4px 5px #0003}
+.hero-book-interactive:hover .book-object,.hero-book-interactive:focus-visible .book-object{transform:rotateZ(-2deg) rotateY(-12deg)}
+.hero-book-interactive .book-pages{position:absolute;display:block;left:calc(100% - 1px);top:1%;bottom:0;width:var(--depth);z-index:1;transform:skewY(15deg);transform-origin:left top;background:repeating-linear-gradient(90deg,#faf9f4 0px,#faf9f4 1px,#c8c6bf 1px,#e4e2da 2px);border-top:3px solid #292821;border-bottom:5px solid #292821;border-right:3px solid #292821;box-shadow:inset -6px 0 9px #0002,5px 7px 8px #0002}
+.hero-book-interactive .book-object:after{content:"";position:absolute;left:0;right:-1px;top:100%;height:5px;background:#292821;transform:skewX(22deg);transform-origin:left top;z-index:1}
+.hero-book-interactive .book-front{border-right:2px solid #292821;border-bottom:3px solid #292821;box-shadow:2px 3px 5px #0003}
+.hero-book-interactive .book-leaf{box-shadow:inset 7px 0 12px #0002;border-color:#c9c6bc}
+@media(max-width:640px){.hero-book-interactive{--depth:clamp(16px,4vw,24px)}}
+
+#personajes .character-body{font-size:clamp(16px,1.25vw,19px);line-height:1.75;margin-bottom:20px}#personajes .character-body:last-child{margin-bottom:0}#personajes .character-panel{align-items:start}
+
+.story-questions{margin:64px 0;padding:42px 0;border-block:1px solid #111;max-width:1050px}.story-questions h3{font-size:clamp(26px,3vw,43px);line-height:1.2;font-weight:550;letter-spacing:-.04em;margin-bottom:25px}.story-questions p{font-size:clamp(18px,1.5vw,23px);line-height:1.5;margin:16px 0 0}@media(max-width:760px){.story-questions{margin:44px 0;padding:30px 0}}
+
+.opening-title{font-size:clamp(44px,5.5vw,80px);margin-bottom:24px}.opening-intro{margin-bottom:52px}.opening-letters{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(36px,6vw,90px);border-top:1px solid #111;padding-top:36px}.opening-letter h3{font-family:Georgia,'Times New Roman',serif;font-size:19px;line-height:1.6;font-weight:400;margin-bottom:26px}.opening-letter blockquote{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(17px,1.4vw,20px);line-height:1.8}.opening-letter blockquote p{line-height:inherit;margin-bottom:18px}.letter-signature{font:italic 21px/1.5 Georgia,serif;text-align:right;margin:26px 0 0}.opening-hook{max-width:850px;font-size:clamp(20px,2vw,28px);line-height:1.5;letter-spacing:-.02em;border-top:1px solid #ddd;margin:48px 0 0;padding-top:30px}@media(max-width:760px){.opening-letters{grid-template-columns:1fr;gap:44px}.opening-letter+.opening-letter{border-top:1px solid #ddd;padding-top:30px}.opening-intro{margin-bottom:34px}}
+
+/* Cartas: misma familia monoespaciada que los rótulos de Miseria. */
+.opening-letters{display:block;max-width:800px;margin-inline:auto;padding-top:42px}
+.opening-letter{padding:0 22px 46px}
+.opening-letter+.opening-letter{margin-top:28px;padding-top:60px;border-top:1px solid #ccc}
+.opening-letter h3,.opening-letter blockquote,.opening-letter .letter-signature{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;font-style:normal;font-weight:400}
+.opening-letter h3{font-size:15px;line-height:1.8;margin-bottom:30px;letter-spacing:0}
+.opening-letter blockquote{font-size:clamp(16px,1.2vw,18px);line-height:1.95;letter-spacing:0}
+.opening-letter blockquote p{margin-bottom:22px;line-height:inherit}
+.opening-letter .letter-signature{font-size:17px;margin-top:32px;line-height:1.7}
+.supporting-cast{margin-top:80px;padding-top:55px;border-top:1px solid #111}
+.supporting-title{font-size:clamp(32px,3.7vw,55px);line-height:1.12;font-weight:600;letter-spacing:-.045em;margin-bottom:26px}
+.supporting-intro{font-size:19px;line-height:1.7;max-width:780px;margin-bottom:42px}
+.supporting-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px 54px}
+.supporting-grid article{border-top:1px solid #ccc;padding-top:25px;min-width:0}
+.supporting-grid .eyebrow{font-size:12px;line-height:1.7;margin-bottom:18px}
+.supporting-grid h4{font-size:clamp(22px,1.9vw,28px);line-height:1.35;letter-spacing:-.025em;font-weight:550;margin:0 0 22px}
+.supporting-grid p{font-size:17px;line-height:1.8;margin-bottom:18px}
+.supporting-grid .supporting-question{font-size:17px;font-weight:600;line-height:1.6;margin-top:25px}
+@media(max-width:760px){.opening-letter{padding-inline:0;padding-bottom:36px}.opening-letter+.opening-letter{padding-top:42px;margin-top:14px}.supporting-grid{grid-template-columns:1fr;gap:32px}.supporting-cast{margin-top:55px;padding-top:38px}}
+/* Primeras líneas: subtítulo completo y lectura más concentrada. */
+#primeras-lineas .opening-intro{max-width:none;width:100%;font-size:clamp(20px,2.05vw,30px);line-height:1.35;margin-bottom:32px}
+#primeras-lineas .opening-letters{padding-top:28px;max-width:860px}
+#primeras-lineas .opening-letter{padding:0 18px 22px}
+#primeras-lineas .opening-letter+.opening-letter{margin-top:14px;padding-top:32px}
+#primeras-lineas .opening-letter h3{font-size:15px;line-height:1.5;margin-bottom:18px}
+#primeras-lineas .opening-letter blockquote{font-size:clamp(16px,1.15vw,18px);line-height:1.55}
+#primeras-lineas .opening-letter blockquote p{line-height:inherit;margin-bottom:12px}
+#primeras-lineas .letter-signature{font-size:16px;line-height:1.5;margin-top:18px}
+#primeras-lineas .opening-hook{margin-top:30px;padding-top:24px}
+@media(min-width:1000px){#primeras-lineas .opening-intro{white-space:nowrap}}
+@media(max-width:760px){#primeras-lineas .opening-intro{white-space:normal}#primeras-lineas .opening-letter{padding-inline:0}#primeras-lineas .opening-letter+.opening-letter{padding-top:28px;margin-top:12px}}
+/* Ajuste fino del espaciado horizontal de las cartas. */
+#primeras-lineas .opening-letter blockquote{letter-spacing:-.025em;word-spacing:-.07em;font-kerning:normal;text-align:left}
+#primeras-lineas .opening-letter h3,#primeras-lineas .letter-signature{letter-spacing:-.02em;word-spacing:-.04em}
+/* Cartas: caja ligeramente más estrecha y ajuste sutil de letras. */
+#primeras-lineas .opening-letters{max-width:790px}
+#primeras-lineas .opening-letter blockquote{letter-spacing:-.04em}
+#primeras-lineas .opening-letter h3,#primeras-lineas .letter-signature{letter-spacing:-.03em}

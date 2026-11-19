@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aislada-maria-zabay.mariazabay.chatgpt.site/sitemap.xml
